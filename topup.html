@@ -121,60 +121,37 @@
       </nav>
     </header>
     <main>
-      <div
-        class="d-flex flex-column align-items-center justify-content-center"
-        style="height: 700px"
-      >
-        <h3 class="mb-5">Select a Denomination</h3>
+      <div class="d-flex flex-column align-items-center justify-content-center" style="height: 700px;">
+        <h3 class="mb-5 fs-1 fw-bold">Enter The Number</h3>
 
-        <div class="d-flex gap-5">
-          <a href="purchase.html">
-            <div class="card" style="width: 18rem">
-              <div class="card-body text-center">
-                <a href="purchase.html">
-                  <button class="btn border border-2">$10 USD</button>
-                </a>
-              </div>
-            </div>
-          </a>
-          <a href="purchase.html">
-            <div class="card" style="width: 18rem">
-              <div class="card-body text-center">
-                <a href="purchase.html">
-                  <button class="btn border border-2">$20 USD</button>
-                </a>
-              </div>
-            </div>
-          </a>
-          <a href="purchase.html">
-            <div class="card" style="width: 18rem">
-              <div class="card-body text-center">
-                <a href="purchase.html">
-                  <button class="btn border border-2">$50 USD</button>
-                </a>
-              </div>
-            </div>
-          </a>
-          <a href="purchase.html">
-            <div class="card" style="width: 18rem">
-              <div class="card-body text-center">
-                <a href="purchase.html">
-                  <button class="btn border border-2">$100 USD</button>
-                </a>
-              </div>
-            </div>
-          </a>
+        <div class="">
+          <form class="row g-3 d-flex flex-column">
+                <div class="col-auto">
+                    <label for="inputPassword2" class="visually-hidden">Number</label>
+                    <input type="password" class="form-control p-4 rounded" id="inputPassword2" placeholder="Type your Number">
+                </div>
+
+                <div class="col-auto text-center">
+                    <a href="provider.html">
+                        <h5 type="submit" class="btn btn-primary mb-3 px-4 py-2 fs-5 fw-bold">Confirm</h5>
+                    </a>
+                </div>
+            </form>
+          </div>
+          
         </div>
       </div>
     </main>
     <!-- Footer section -->
-    <footer class="footer bg-base-200 text-base-content py-5">
+    <footer
+      class="footer bg-base-200 text-base-content py-5"
+    >
       <div class="d-flex justify-content-evenly align-items-baseline">
         <aside class="w-25 lh-2">
           <img src="./assets/Logo.png" alt="" />
           <p class="my-3">
             Your one-stop shop for amazing deals. CoreX brings you discounts on
-            everyday essentials and exciting finds. Explore, save, and enjoy! 
+            everyday essentials and exciting finds. Explore, save, and enjoy! 
           </p>
           <img src="./assets/visa-img.png" alt="" />
         </aside>
@@ -182,63 +159,51 @@
         <!-- links -->
         <div class="w-50 d-flex justify-content-evenly align-items-baseline">
           <nav class="links d-flex flex-column me-5">
-            <a>Home</a>
-            <a>Todays Deals</a>
-            <a>Trending Products</a>
-            <a>Fashion & Style </a>
-            <a>Home & Living</a>
-            <a>Electronic & Entertainment </a>
-            <a>Groceries & Dining</a>
-          </nav>
+          <a>Home</a>
+          <a>Todays Deals</a>
+          <a>Trending Products</a>
+          <a>Fashion & Style </a>
+          <a>Home & Living</a>
+          <a>Electronic & Entertainment </a>
+          <a>Groceries & Dining</a>
+        </nav>
 
-          <nav class="links d-flex flex-column me-5">
-            <a>My Account </a>
-            <a>Order tracking </a>
-            <a>Checkout </a>
-            <a>Wishlist</a>
-            <div
-              class="social-link d-flex justify-content-around align-items-end"
-            >
-              <a href="https://www.facebook.com/"
-                ><img src="./assets/Facebook.png" alt=""
-              /></a>
+        <nav class="links d-flex flex-column me-5">
+          <a>My Account </a>
+          <a>Order tracking </a>
+          <a>Checkout </a>
+          <a>Wishlist</a>
+          <div class="social-link d-flex justify-content-around align-items-end">
 
-              <a href="https://www.instagram.com/accounts/login/"
-                ><img src="./assets/Instagram.png" alt=""
-              /></a>
+            <a href="https://www.facebook.com/"><img src="./assets/Facebook.png" alt="" /></a>
 
-              <a href="https://www.linkedin.com/login"
-                ><img src="./assets/LinkedIn.png" alt=""
-              /></a>
+            <a href="https://www.instagram.com/accounts/login/"><img src="./assets/Instagram.png" alt="" /></a>
 
-              <a href="https://www.youtube.com/"
-                ><img src="./assets/YouTube.png" alt=""
-              /></a>
-            </div>
-          </nav>
+            <a href="https://www.linkedin.com/login"><img src="./assets/LinkedIn.png" alt="" /></a>
 
-          <nav class="lh-1">
-            <p class="mb-0 p-0 fw-semibold fs-5 text-secondary w-75">
-              Don't miss out! Subscribe for the latest offers.
-            </p>
-            <div class="d-flex flex-column align-items-start">
-              <input
-                type="text"
-                placeholder="Enter Your Email"
-                class="my-3 rounded-3 w-75 border-0 p-3"
-              />
-              <button class="subscribe btn btn-primary rounded">
-                Subscribe
-              </button>
-            </div>
-          </nav>
+            <a href="https://www.youtube.com/"><img src="./assets/YouTube.png" alt="" /></a>
+          </div>
+        </nav>
+
+        <nav class="lh-1">
+          <p class="mb-0 p-0 fw-semibold fs-5 text-secondary w-100">
+            Don't miss out! Subscribe for 
+            the latest offers.
+          </p>
+          <div class="d-flex flex-column align-items-start">
+            <input
+              type="text"
+              placeholder="Enter Your Email"
+              class="my-3 rounded-3 w-100 border-0 p-3"
+            />
+            <button class="subscribe btn btn-primary rounded">Subscribe</button>
+          </div>
+        </nav>
         </div>
       </div>
-      <div class="links d-flex justify-content-between align-items-center">
-        <p class="link-content1">
-          Copyright © 2024 CoreX | All Rights Reserved
-        </p>
-        <p class="link-content2">Terms & conditions | Privacy Policy</p>
+      <div class="links d-flex justify-content-between align-items-center mt-5">
+        <p class="link-content1">Copyright © 2024 CoreX | All Rights Reserved</p> 
+        <p class="link-content2">Terms & conditions  |  Privacy Policy</p> 
       </div>
     </footer>
 
