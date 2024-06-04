@@ -8,7 +8,27 @@
 
 
 /* fuad */
+footer{
+    background-color: #EFEDFD;
+}
+nav{
+    line-height: 2;
+}
+nav a{
+    text-decoration: none;
+}
 
+.links{
+    color: gray;
+}
+
+.social-link a{
+    margin-right: 10px;
+}
+
+.subscribe{
+    background-color: #614FEC;
+}
 
 
 /* .......................... */
